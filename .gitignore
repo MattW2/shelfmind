@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.env
+
+# Local Databases & Logs
+library_cache.db
+*.db
+*.log
+
+# Scratch scripts & temporary test files
+scratch/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
